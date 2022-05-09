@@ -6,9 +6,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{EFFA0B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F093264A-3736-4863-B7B6-0786B929F9C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.DataEncryption.Core", "src\EntityFrameworkCore.DataEncryption.Core\EntityFrameworkCore.DataEncryption.Core.csproj", "{3024BB69-3A96-4065-922C-8FD4B5E5E4E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9} = {0F4B4CEC-5E5E-4CF0-9DCD-9C2E86802DCD}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
