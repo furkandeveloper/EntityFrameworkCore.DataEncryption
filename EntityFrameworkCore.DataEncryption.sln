@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		common.props = common.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.DataEncryption.Sample", "sample\EntityFrameworkCore.DataEncryption.Sample\EntityFrameworkCore.DataEncryption.Sample.csproj", "{72D12D0C-9300-4E31-8C0F-D5E4C241168E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9} = {0F4B4CEC-5E5E-4CF0-9DCD-9C2E86802DCD}
 		{2F541FBE-A67C-4DCC-85DC-39C7A8DBDE3B} = {0F4B4CEC-5E5E-4CF0-9DCD-9C2E86802DCD}
+		{72D12D0C-9300-4E31-8C0F-D5E4C241168E} = {EFFA0BA3-FAFB-4EF6-920B-25BCBFE32B67}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3024BB69-3A96-4065-922C-8FD4B5E5E4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +38,9 @@ Global
 		{2F541FBE-A67C-4DCC-85DC-39C7A8DBDE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F541FBE-A67C-4DCC-85DC-39C7A8DBDE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F541FBE-A67C-4DCC-85DC-39C7A8DBDE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D12D0C-9300-4E31-8C0F-D5E4C241168E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D12D0C-9300-4E31-8C0F-D5E4C241168E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D12D0C-9300-4E31-8C0F-D5E4C241168E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D12D0C-9300-4E31-8C0F-D5E4C241168E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
