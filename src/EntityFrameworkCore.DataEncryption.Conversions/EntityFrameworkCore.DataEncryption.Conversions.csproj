@@ -10,4 +10,8 @@
       <ProjectReference Include="..\EntityFrameworkCore.DataEncryption.Core\EntityFrameworkCore.DataEncryption.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="encrypt.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
 </Project>

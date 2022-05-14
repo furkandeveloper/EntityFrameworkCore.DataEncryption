@@ -2,4 +2,7 @@
 
     <Import Project="..\..\common.props" />
 
+    <ItemGroup>
+        <None Include="encrypt.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
 </Project>
