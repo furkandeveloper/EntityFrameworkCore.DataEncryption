@@ -18,5 +18,7 @@ If you liked the project or if **EntityFrameworkCore.DataEncryption** helped you
 ### Purpose
 **EntityFrameworkCore.DataEncryption** with the entity framework core value converter feature, it allows you to store your data by encrypting it.
 
+***
+
 ### Documentation
 Visit wiki documentation. [Wiki](https://github.com/furkandeveloper/EntityFrameworkCore.DataEncryption/wiki)
