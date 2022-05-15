@@ -15,10 +15,15 @@ public class AuthorController : ControllerBase
         _context = context;
     }
 
-    [HttpGet(Name = "Filter")]
-    public Task<IActionResult> FilterAsync([FromQuery]string phone)
+    [HttpGet("equal",Name = "Equal")]
+    public Task<IActionResult> EqualAsync([FromQuery]string phone)
     {
         return Task.FromResult<IActionResult>(Ok(_context.Authors.Where(a=>a.Phone == phone).ToList()));
+    }
+    [HttpGet("contains",Name = "Contains")]
+    public Task<IActionResult> ContainsAsync([FromQuery]string phone)
+    {
+        return Task.FromResult<IActionResult>(Ok(_context.Authors.Where(a=>a.Phone.Contains(phone)).ToList()));
     }
 
     [HttpPost(Name = "Insert")]
