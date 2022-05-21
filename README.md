@@ -22,3 +22,9 @@ If you liked the project or if **EntityFrameworkCore.DataEncryption** helped you
 
 ### Documentation
 Visit wiki documentation. [Wiki](https://github.com/furkandeveloper/EntityFrameworkCore.DataEncryption/wiki)
+
+***
+
+### Sample Project
+
+See for more information visit [sample project](https://github.com/furkandeveloper/EntityFrameworkCore.DataEncryption/tree/master/sample/EntityFrameworkCore.DataEncryption.Sample)
