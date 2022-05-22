@@ -56,7 +56,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
         entity
             .Property(p => p.Phone)
             .IsRequired()
-            .HasConversion(new EncryptValueConverter("89acMXSBpuEBDWHZ"));
+            .HasConversion(new EncryptValueConverter(key:"89acMXSBpuEBDWHZ"));
     });
     base.OnModelCreating(modelBuilder);
 }
